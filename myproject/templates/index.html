@@ -14,10 +14,12 @@
   <body>
     <h1>Hello, How are you doing today?</h1>
     <div class="grid-container">
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-      <div>4</div>
+      {% for feature in features %}
+      <div>
+        <h4>{{feature.name}}</h4>
+        <h5>{{feature.details}}</h5>
+      </div>
+      {% endfor %}
     </div>
   </body>
 </html>
