@@ -92,6 +92,20 @@ Total File Structure<br />
         └── {projectname}
             └── ...
 ```
+
+*** Connect to PostgreSQL ***
+1. Install PostgreSQL
+2. Install libraries
+   ```sh
+   pip install psycopg2
+   pip install Pillow
+   ```
+3. Migrate them to the project
+   ```sh
+   python manage.py makemigrations
+   python manage.py migrate
+   ```
+
 <!-- └── -->
 <p align="right">(<a href="#top">back to top</a>)</p>
 
