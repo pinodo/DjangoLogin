@@ -4,7 +4,8 @@
 <h3 align="center">Django Login</h3>
 
   <p align="center">
-    Django Login Implementation
+    Django Login Implementation<br />
+    Reference - https://www.youtube.com/watch?v=jBzwzrDvZ18
   </p>
 </div>
 
@@ -29,29 +30,34 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
+
 This project aims to know the basic django structure from installation to the basic use and structure. <br />
 Moreover, for the further use when I create a new project, this project could be a milestone.
 
 ### Built With
 
-* [Python](https://www.python.org/)
-* [Django](https://www.djangoproject.com/)
+- [Python](https://www.python.org/)
+- [Django](https://www.djangoproject.com/)
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisite
+
 1. Install the latest version of python and django
 
 ### Installation
+
 1. Make a virtual environment in cmd
    ```sh
    i) py -3 -m venv {envname}
-    ```
+   ```
    ```sh
    ii) cd {envname}/Scripts
    ```
@@ -65,7 +71,7 @@ To get a local copy up and running follow these simple example steps.
 2. Install django
    ```
    pip install django
-   ```   
+   ```
 3. Create a new django project in a root file
    ```sh
    django-admin startproject {projectname}
@@ -81,7 +87,8 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    cd {projectname}
    ```
-Total File Structure<br />
+   Total File Structure<br />
+
 ```hash
 .
 └── {filename}
@@ -93,7 +100,8 @@ Total File Structure<br />
             └── ...
 ```
 
-*** Connect to PostgreSQL ***
+**_ Connect to PostgreSQL _**
+
 1. Install PostgreSQL
 2. Install libraries
    ```sh
@@ -108,5 +116,3 @@ Total File Structure<br />
 
 <!-- └── -->
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
